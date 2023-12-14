@@ -2,6 +2,19 @@ header {
   background-color: #FFC55A;
 }
 
+footer {
+  background-color: #D3C4E2;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
 nav ul {
     display: flex;
     align-items: flex-start;
@@ -23,13 +36,15 @@ nav ul li a {
   }
   
 .logo-menu {
+    display: flex;
+    align-items: flex-start;
     width: 64px;
     height: 64px;
   }
 
 .img-menu {
     align-items: center;
-    width: 60%;
+    width: 75%;
     height: 50%;
     padding-top: 15px;
     padding-left: 15px;
@@ -44,3 +59,17 @@ nav ul li a {
     margin-right: calc(-0.5 * var(--bs-gutter-x));
     margin-left: calc(-0.5 * var(--bs-gutter-x));
   }
+
+  .div-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .col-2-center {
+    display: flex;
+    flex-wrap: wrap;
+    width: 16.66666667%;
+  }
+  
