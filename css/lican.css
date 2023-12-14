@@ -1,3 +1,7 @@
+header {
+  background-color: #FFC55A;
+}
+
 nav ul {
     display: flex;
     align-items: flex-start;
@@ -8,12 +12,12 @@ nav ul {
 nav ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
   }
   
 nav ul li a {
     display: block; 
-    padding: 8px;
+    padding: 10px;
     color: red;
     text-decoration: none;
   }
@@ -25,7 +29,7 @@ nav ul li a {
 
 .img-menu {
     align-items: center;
-    width: 80px;
+    width: 60%;
     height: 50%;
     padding-top: 15px;
     padding-left: 15px;
@@ -34,7 +38,6 @@ nav ul li a {
 .row-menu {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
-    background-color: #FFC55A;
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(-1 * var(--bs-gutter-y));
