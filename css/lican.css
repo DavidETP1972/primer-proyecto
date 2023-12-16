@@ -63,6 +63,7 @@ nav ul li a {
   .div-center {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     text-align: center;
   }
@@ -71,5 +72,11 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     width: 16.66666667%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-justify {
+    text-align: justify;
   }
   
