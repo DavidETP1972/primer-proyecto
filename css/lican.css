@@ -2,6 +2,10 @@ header {
   background-color: #FFC55A;
 }
 
+.height-menu {
+  height: 45px !important;
+}
+
 footer {
   background-color: #D3C4E2;
   display: flex;
@@ -46,8 +50,6 @@ nav ul li a:hover {
 .logo-menu {
     display: flex;
     align-items: flex-start;
-    width: 64px;
-    height: 64px;
   }
 
 .img-menu {
@@ -74,18 +76,6 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  
-  .col-2-center {
-    display: flex;
-    flex-wrap: wrap;
-    width: 16.66666667%;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .side-right {
-    justify-content: right !important;
   }
   
   .text-justify {
