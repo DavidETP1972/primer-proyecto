@@ -16,16 +16,14 @@ body {
 }
 
 nav ul {
-    display: flex;
-    align-items: flex-start;
     list-style: none;
-    overflow: hidden; 
   }
   
 nav ul li {
     font-family: 'Segoe UI', sans-serif;
     font-weight: bold;
     font-size: 18px;
+    display: inline-block;
   }
   
 nav ul li a {
@@ -86,12 +84,8 @@ nav ul li a:hover {
     align-items: center;
   }
 
-  .col-8-right {
-    display: flex;
-    flex: 0 0 auto;
-    width: 66.66666667%;
-    justify-content: right;
-    align-items: center;
+  .side-right {
+    justify-content: right !important;
   }
   
   .text-justify {
