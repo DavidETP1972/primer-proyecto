@@ -82,6 +82,12 @@ nav ul li a:hover {
     text-align: justify;
   }
 
+.align-text {
+  padding-top: 6px;
+  display: inline;
+  text-align: center;
+}
+
 input, textarea {
   border-radius: 8px;
   width: 80%;
@@ -98,6 +104,7 @@ label {
 
 .link-boton-send {
   display:block;
+  float: left;
   width: 130px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
@@ -112,6 +119,7 @@ label {
 
 .link-boton-clear {
   display:block;
+  float: right;
   width: 130px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;

@@ -32,7 +32,6 @@
             </div>
         </div>
     </header>
-
     <section class="container-fluid">
         <div class="container">
             <div class="row">
@@ -40,55 +39,55 @@
             </div>
         </div>
     </section>
-    <br>
-    <br>
     <section class="container-form">
-        <form action="" class="container">
-            <div class="row">
-                <p>Contáctenos sobre cualquier consulta con nuestra empresa o nuestros servicios. Haremos todo lo posible por darle respuesta a la brevedad.</p>
-                <br>
-                <br>
-                <h2>Formulario de Contacto</h2>
-                <br>
-                <br>
-                <br>
-                <div class="col-3"></div>
-                <div class="col-7 align-input">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" placeholder="Se debe colocar nombres y apellidos">
+        <form action="https://formsubmit.co/davidetp@gmail.com" method="POST">
+            <div class="container">
+                <div class="row">
+                    <p>Contáctenos sobre cualquier consulta con nuestra empresa o nuestros servicios. Haremos todo lo posible por darle respuesta a la brevedad.</p>
                     <br>
                     <br>
-                    <label for="telefono">Celular:</label>
-                    <input type="tel" id="telefono" placeholder="Se debe colocar el celular del contacto">
+                    <h2>Formulario de Contacto</h2>
                     <br>
-                    <br>
-                    <label for="mail">Em@il:</label>
-                    <input type="email" id="mail" placeholder="Se debe colocar un correo electronico">
-                    <br>
-                    <br>
-                    <label for="compania">Compañia:</label>
-                    <input type="text" id="compania" placeholder="Se debe colocar compañia de contacto">
-                    <br>
-                    <br>
-                    <label for="asunto">Asunto:</label>
-                    <input type="text" id="asunto" placeholder="Se debe colocar el motivo">
-                    <br>
-                    <br>
-                    <label for="pregunta">Tu pregunta:</label>
-                    <textarea type="" id="pregunta" rows="8" placeholder="Colocar su pregunta y/o consulta"></textarea>
+                    <div class="col-3"></div>
+                    <div class="col-7 align-input">
+                        <label for="nombre">(*)Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Colocar nombres y apellidos" required>
+                        <br>
+                        <br>
+                        <label for="telefono">(*)Celular:</label>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Colocar el celular del contacto" required>
+                        <br>
+                        <br>
+                        <label for="mail">(*)Em@il:</label>
+                        <input type="email" name="mail" id="mail" placeholder="Colocar email debe tener @ y ." required>
+                        <br>
+                        <br>
+                        <label for="compania">(*)Compañia:</label>
+                        <input type="text" name="compania" id="compania" placeholder="Compañia de contacto" required>
+                        <br>
+                        <br>
+                        <label for="asunto">(*)Asunto:</label>
+                        <input type="text" name="asunto" id="asunto" placeholder="Motivo y/o Asunto" required>
+                        <br>
+                        <br>
+                        <label for="pregunta">(*)Tu pregunta:</label>
+                        <textarea type="" name="pregunta" id="pregunta" rows="8" placeholder="Colocar su pregunta y/o consulta" required></textarea>
+                    </div>
+                    <div class="col-2"></div>
                 </div>
-                <div class="col-2"></div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-3"></div>
-                <div class="col-7">
-                    <a href="#" class="link-boton-send"><img src="./images/send.png" alt="Send">Enviar</a>
-                    <a href="#" class="link-boton-clear"><img src="./images/clean.png" alt="Send">Limpiar</a>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <!--<a href="#" class="link-boton-send" value="Enviar"><img src="./images/send.png" alt="Send">Enviar</a>-->
+                        <input class="link-boton-send" type="submit" text="Enviar" value="Enviar" alt="Send">
+                        <input class="link-boton-clear" type="reset" text="Limpiar" alt="Clear">
+                        <!--<a href="./contactanos.html" class="link-boton-clear"><img src="./images/clean.png" alt="clear">Limpiar</a>-->
+                    </div>
+                    <div class="col-2"></div>
                 </div>
-                <div class="col-2"></div>
             </div>
         </form>
     </section>
