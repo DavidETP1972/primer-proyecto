@@ -142,10 +142,14 @@ label {
   width: 100%;
 }
 
+.card-l-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
 .card-l-footer {
   padding: 5px;
   align-items: center;
-
 }
 
 .link-boton-we {
@@ -159,4 +163,19 @@ label {
   padding: 5px;
   text-align: center;
   color: black;
+}
+
+.cards {
+  display: flex;
+}
+
+.card-ot {
+  flex: 30%;
+  border: 1px solid #644C7C;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
