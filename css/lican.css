@@ -152,6 +152,22 @@ label {
   align-items: center;
 }
 
+.card-l-h {
+  text-align: center;
+  color: #644C7C;
+    /* Firefox */
+    -moz-transition: font-size 300ms linear 0s;
+    /* Chrome / Safari */
+    -webkit-transition: font-size 300ms linear 0s;
+    /* default */
+    transition: font-size 300ms linear 0s;
+}
+
+.card-l-h:hover {
+  font-size: 30px;
+  color:#FF0000;
+}
+
 .link-boton-we {
   display:block;
   font-family: 'Segoe UI', Verdana, sans-serif;
@@ -179,3 +195,18 @@ label {
   display: flex;
   flex-direction: column;
 }
+
+img.scale {
+  border: 1px solid;
+  /* Chrome / Safari */
+  -webkit-transition: all 1s ease-in-out;
+  /* Firefox */
+  -moz-transition: all 1s ease-in-out;
+  /* default */
+  transition: all 1s ease-in-out;
+}
+
+img.scale:hover {
+  transform: scale(1.5,1.5);
+}
+
