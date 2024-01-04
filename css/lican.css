@@ -217,3 +217,7 @@ img.scale:hover {
   height: 15px;
   margin-right: 5px;
 }
+
+p.no-margin {
+  margin: 0;
+}
