@@ -210,3 +210,10 @@ img.scale:hover {
   transform: scale(1.5,1.5);
 }
 
+.img-2::before {
+  content: url('../images/clean.png');
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
