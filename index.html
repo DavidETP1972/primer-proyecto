@@ -11,12 +11,16 @@
 </head>
 <body>
     <header class="container-fluid height-menu">
+		<div class="menu_bar">
+			<a href="#" class="bt-menu p-lican"><img src="./images/menu-var.png" alt="Menu"> Menu</a>
+		</div>
+
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-2" id="div-logo">
                     <a href="#"><img src="./images/lican-logo-menu.png" alt="Lican Logo"></a>
                 </div>
-                <div class="col-2 align-text">
+                <div class="col-2 align-text" id="div-lican">
                     <p class="p-lican">LICAN</p>
                 </div>
                 <div class="col-8 text-end">
@@ -38,6 +42,7 @@
             <div class="row">
                 <img src="./images/mina-y-arqueologia-01.jpg" alt="Fondo mina y arqueologia">
             </div>
+            <br>
             <br>
             <br>
             <div class="div-center">
@@ -79,15 +84,15 @@
                 <div class="col-2">
                     <br>
                     <br>
-                    <a href="./index.html">Inicio</a>
+                    <a href="./index.html" class="link-footer">Inicio</a>
                     <br>
-                    <a href="./nosotros.html">Nosotros</a>
+                    <a href="./nosotros.html" class="link-footer">Nosotros</a>
                     <br>
-                    <a href="./clientes.html">Clientes</a>
+                    <a href="./clientes.html" class="link-footer">Clientes</a>
                     <br>
-                    <a href="./servicios.html">Servicios</a>
+                    <a href="./servicios.html" class="link-footer">Servicios</a>
                     <br>
-                    <a href="./contactanos.html">Contactanos</a>
+                    <a href="./contactanos.html" class="link-footer">Contactanos</a>
                 </div>
                 <div class="col-5">
                     <h2>Acerca de ...</h2>
@@ -108,12 +113,13 @@
                     <div class="div-center">
                         <p class="text-justify">Redes Sociales/Social Network</p>
                         <br>
+                        <br>
                         <nav>
                             <ul>
-                                <li><a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="./images/facebook.png" alt="Facebook"></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" alt="Instagram"></a></li>
-                                <li><a href="https://pe.linkedin.com/" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn"></a></li>
-                                <li><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img src="./images/whatsapp.png" alt="whatsapp"></a></li>
+                                <li><a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="nav-ul-li-a-f"><img src="./images/facebook.png" alt="Facebook" class="img-sn"></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank" class="nav-ul-li-a-f"><img src="./images/instagram.png" alt="Instagram" class="img-sn"></a></li>
+                                <li><a href="https://pe.linkedin.com/" target="_blank" class="nav-ul-li-a-f"><img src="./images/linkedin.png" alt="LinkedIn" class="img-sn"></a></li>
+                                <li><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank" class="nav-ul-li-a-f"><img src="./images/whatsapp.png" alt="whatsapp" class="img-sn"></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -121,5 +127,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/jquery-latest.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
