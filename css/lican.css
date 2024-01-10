@@ -45,7 +45,14 @@ nav ul li a:hover {
     color: #644C7C;
   }
 
-.nav-footer-img-a {
+  .nav-ul-li-a-f {
+    display: block; 
+		float:none;
+    padding-left:8px  !important;
+    padding-right:8px  !important;
+  }
+
+  .nav-footer-img-a {
     display: block; 
     padding: 3px;
 }
@@ -57,6 +64,12 @@ nav ul li a:hover {
   margin: 0;
 }
   
+.img-we {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
+
 .p-lican {
   color: #FF0000;
   font-size: 24px;
@@ -168,6 +181,9 @@ input, textarea {
 .card-l-header {
   align-items: center;
   text-align: center;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
 }
 
 .card-l-content {
@@ -234,7 +250,7 @@ img.scale {
 }
 
 img.scale:hover {
-  transform: scale(1.5,1.5);
+  transform: scale(1.1,1.1);
 }
 
 p.no-margin {
@@ -242,7 +258,7 @@ p.no-margin {
 }
 
 .animate__animated.animate__bounce {
-  --animate-duration: 5s;
+  --animate-duration: 3s;
 }
 
 @media (max-width:700px) {
@@ -300,11 +316,8 @@ p.no-margin {
 	}
 
   .nav-ul-li-a-f {
-		display:block;
-		float:none;
-    padding:2px  !important;
-		margin:0;
-		position: fixed;
+    padding-left:5px  !important;
+    padding-right:5px  !important;
   }
 
   .p-lican {
@@ -321,5 +334,25 @@ p.no-margin {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-    
+
+  .card-l-header {
+    width: 85%;
+    height: 85%;
+  }
+  
+  .card-l {
+    width: 60%;
+  } 
+
+  .img-we {
+    width: 256px;
+    height: 128px;
+  }
+
+  .img-sn {
+    width: 24px;
+    width: 24px;
+    padding: 1px;
+    margin: 0;
+  }
 }
