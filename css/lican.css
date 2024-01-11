@@ -241,6 +241,7 @@ input, textarea {
 
 img.scale {
   border: 1px solid;
+  transform: scale(0.8,0.8);
   /* Chrome / Safari */
   -webkit-transition: all 1s ease-in-out;
   /* Firefox */
@@ -250,7 +251,7 @@ img.scale {
 }
 
 img.scale:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1,1);
 }
 
 p.no-margin {
