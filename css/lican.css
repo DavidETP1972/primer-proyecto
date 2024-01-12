@@ -278,6 +278,10 @@ p.no-margin {
   margin: 0;
 }
 
+.animate__animated.animate__bounceInDown {
+  --animate-duration: 3s;
+}
+
 .animate__animated.animate__bounce {
   --animate-duration: 3s;
 }
