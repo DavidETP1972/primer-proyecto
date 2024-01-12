@@ -384,4 +384,11 @@ p.no-margin {
     padding: 1px;
     margin: 0;
   }
+  .link-boton-send {
+    width: 90px;
+  }
+
+  .link-boton-clear {
+    width: 90px;
+  }
 }
