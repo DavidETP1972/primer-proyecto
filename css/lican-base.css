@@ -14,7 +14,7 @@ h4 {
   height: 45px !important;
 }
 
-.menu_bar {
+.menu-bar {
 	display:none;
 }
 
@@ -342,7 +342,7 @@ p.no-margin {
     display: none;
   }
 
-  .menu_bar {
+  .menu-bar {
     display: block;
     width:100%;
   }
