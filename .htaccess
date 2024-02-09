@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^clientes$ clientes.html
+RewriteRule ^contactanos$ contactanos.html
+RewriteRule ^nosotros$ nosotros.html
+RewriteRule ^nuestro-equipo$ nuestro-equipo.html
+RewriteRule ^servicios$ servicios.html
+RewriteRule ^gracias$ gracias.html
