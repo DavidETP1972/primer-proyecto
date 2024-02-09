@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-RewriteRule ^inicio$ index.html
+RewriteRule ^index$ index.html
 RewriteRule ^clientes$ clientes.html
 RewriteRule ^contactanos$ contactanos.html
 RewriteRule ^nosotros$ nosotros.html
